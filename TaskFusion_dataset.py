@@ -30,7 +30,7 @@ class Fusion_dataset(Dataset):
         if split == 'train':
             data_dir_vis = 'dataset/MSRS/train/vi/'
             data_dir_ir = 'dataset/MSRS/train/ir/'
-            data_dir_label = 'dataset/MSRS/train/Segmented_labels/'
+            data_dir_label = 'dataset/MSRS/train/Segmentation_labels/'
             self.filepath_vis, self.filenames_vis = prepare_data_path(data_dir_vis)
             self.filepath_ir, self.filenames_ir = prepare_data_path(data_dir_ir)
             self.filepath_label, self.filenames_label = prepare_data_path(data_dir_label)
